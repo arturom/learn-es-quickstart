@@ -1,0 +1,67 @@
+# Insert a "person" document into a "town" index
+# Retrieve our "person" document from our "town" index
+# Delete our "person" document from our "town" index
+# Reinsert our "person" document into our "town" index
+# Retrieve our "person" document
+# Attempt to retrieve a non-existing "person" document
+# Insert a second "person" document
+# Apply a partial update to our first "person" document
+# Retrieve the updated "person" document
+# Attempt to apply a partial update to non-existing "person" document
+# Upsert a document
+# Retrieve our third "person" partial document
+# Retrieve our second "person" document
+# Replace the entire contents of our person 2 document with a new body
+# Retrieve the "person" document we just updated
+# Again, replace the entire contents of our person 2 document with a new body
+# Insert a new "pet" document into the same "town" index
+# Show the mapping of the "person" type
+# Show the mapping of the "pet" type
+# Show the mapping of every type in our "town" index
+# Attempt to insert a "person" document with an incorrect "age" data type
+# Insert the "person" record using a compatible data type
+# Search for any "person" documents in our "town" index
+# Search for any documents of any type in our "town" index
+# Search for documents that contain the string "jane" in our "town" index
+# List all our indexes
+# Delete our "town" index
+# Drop "email" index
+# Search Messages
+# Search Persons
+# View "email" index mapping
+# Search for messages containing the words "white house"
+# Search for items containing the words "White House" using a proper-case query
+# Search for items containing the phrase "white house"
+# Search for items containing the words "white house" and apply an offset
+# Search for items containing the words "next to the white house"
+# Search for items containing the phrase "next to the white house"
+# Search for persons named "Clinton"
+# Search for messages sent by person 80
+# Search for messages sent to person 80
+# Search for messages sent to person 80 by person 87
+# Search for messages sent to person 80 by person 87 using query_string in JSON
+# Search for any message records using JSON
+# Search for messages sent to person 80 using a JSON match query
+# Search for messages sent to person 80 using a term query
+# Search for messages sent to person 80 using a term filter
+# Search for messages sent to person 80 by person 87 using JSON
+# Get message 803
+# Get "person" documents using the _id
+# Get "person" documents using terms query
+# Get "person" documents using terms lookup query
+# Search for messages with the words "CONNECTING SUNDAY" in the subject
+# Search for messages with the phrase "CONNECTING SUNDAY" in the subject
+# Search for messages with the phrase "SUNDAY" in the subject
+# Search for messages with the term "SUNDAY" in the subject
+# Search for messages with the term "sunday" in the subject
+# Analyze phrase using the standard analyzer
+# Analyze phrase using the English analyzer
+# Analyze a Spanish phrase using the Spanish analyzer
+# Analyze a Spanish phrase using the English analyzer
+# Analyze a phrase using the keyword analyzer
+# Analyze the string "SUNDAY" using the standar analyzer
+# Get Mapping
+# Delete "email" index
+# Set Subject field to "not_analyzed"
+# Search for messages with the term "SUNDAY" in the subject
+# Search for messages with the term "sunday" in the subject
