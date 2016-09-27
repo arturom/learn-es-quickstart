@@ -1,0 +1,13 @@
+{
+    "name": "arturo/notebook",
+    "require": {
+        "elasticsearch/elasticsearch": "^2.2",
+        "monolog/monolog": "^1.21"
+    },
+    "authors": [
+        {
+            "name": "Arturo Mejia",
+            "email": "amejia@blim.com"
+        }
+    ]
+}
